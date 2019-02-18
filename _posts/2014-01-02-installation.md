@@ -28,7 +28,3 @@ Your choice will depend on which SBML extensions you need, and how much
 bandwidth you want to conserve.
 If you don't know, try `libsbmljs_stable`.
 Learn more about the different options.
-
-The libSBML C++ library maintains two separate branches:
-the "stable" branch for accepted packages
-and the "experimental" branch for proposed packages.

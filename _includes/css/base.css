@@ -299,3 +299,8 @@ span.lineno {
   padding-right: 8px;
   text-align: right;
 }
+
+td {
+	padding-left: 20px;
+	padding-right: 20px;
+}
