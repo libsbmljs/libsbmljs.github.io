@@ -28,6 +28,8 @@ colors:
   black:     '#111111'
   white:     '#f8f8f8'
   blue:      '#49a7e9'
+  deepblue:  '#1c35a4'
+  blue2:     '#1d3ecf'
   green:     '#9bcf2f'
   purple:    '#c869bf'
   orange:    '#fab125'
@@ -35,4 +37,3 @@ colors:
 
 kramdown:
   auto_ids:  false
-
