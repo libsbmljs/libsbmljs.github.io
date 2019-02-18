@@ -8,7 +8,7 @@ color: black
 
 Unlike most JavaScript libraries, libsbmljs is loaded asynchronously.
 This means that it cannot be used immediately after importing it
-because the browser may still be downloading and compiling the WebAssembly.
+because the browser may still be downloading and compiling it.
 The libsbmljs module can be called using a `then()` method similar to a Promise:
 ```javascript
 import libsbml from 'libsbml_stable'
