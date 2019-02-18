@@ -13,20 +13,21 @@ Choose one of the following packages:
 npm install --save libsbmljs_core
 ```
 
-* Everything in `libsbmljs_core` plus accepted packages
+* Everything from the previous package plus accepted SBML extensions
 ```
 npm install --save libsbmljs_stable
 ```
 
-* Everything in `libsbmljs_stable` plus all packages (including proposed packages)
+* Everything from the previous package plus all SBML extensions (including proposed extensions)
 ```
 npm install --save libsbmljs_experimental
 ```
 
-Your choice will depend on which packages you need, and how much
+These packages get larger but have more features as you go down the list.
+Your choice will depend on which SBML extensions you need, and how much
 bandwidth you want to conserve.
 If you don't know, try `libsbmljs_stable`.
-Learn more about the different branches.
+Learn more about the different options.
 
 The libSBML C++ library maintains two separate branches:
 the "stable" branch for accepted packages

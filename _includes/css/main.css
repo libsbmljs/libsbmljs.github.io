@@ -35,6 +35,7 @@ code, pre {
   background: rgba(255,255,255,0.2);
   display: inline;
   word-wrap: break-word;
+  white-space: pre-wrap;
 }
 
 /* block code */
@@ -45,6 +46,7 @@ pre {
   padding: 4px 8px;
   background: rgba(255,255,255,0.1);
   word-wrap: break-word;
+  white-space: pre-wrap;
 }
 
 .highlight { margin:20px 5%; }
