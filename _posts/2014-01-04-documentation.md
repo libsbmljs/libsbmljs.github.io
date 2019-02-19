@@ -6,5 +6,6 @@ color: white
 
 # API Documentation:
 
-* Stable (5.17.0)
-* Experimental (5.17.2)
+* [Core (no extensions) 5.17.0](https://libsbmljs.github.io/core/apidoc/)
+* [Stable (accepted extensions) 5.17.0](https://libsbmljs.github.io/stable/apidoc/)
+* [Experimental (all extensions) 5.17.2](https://libsbmljs.github.io/experimental/apidoc/)
