@@ -113,7 +113,7 @@ You should see the following output printed to the terminal:
 </sbml>
 ```
 
-*  Here is the full source code of the `index.js` we created in this tutorial:
+*  Here is the full source code of the `index.js` file we created in this tutorial:
 
 ```javascript
 import libsbml from 'libsbmljs_stable'
