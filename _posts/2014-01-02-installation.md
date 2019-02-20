@@ -29,7 +29,11 @@ bandwidth you want to conserve.
 If you don't know, try `libsbmljs_stable`.
 If you would like more info, keep reading.
 
-## More About Packages
+<br/>
+<br/>
+<br/>
+
+## Why Three NPM Packages?
 
 libsbmljs comes in [libsbmljs_core](https://www.npmjs.com/package/libsbmljs_core), [libsbmljs_stable](https://www.npmjs.com/package/libsbmljs_stable), and [libsbmljs_experimental](https://www.npmjs.com/package/libsbmljs_experimental) npm packages.
 The difference between them is the number of [SBML extensions](http://sbml.org/Documents/Specifications#SBML_Level_3_Packages) supported in each version.
