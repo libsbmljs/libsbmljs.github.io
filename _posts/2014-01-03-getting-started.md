@@ -63,6 +63,10 @@ libsbml().then((libsbml) => {
   reaction.setId('J1')
   reaction.setReversible(false)
 
+  const reactant = reaction.createReactant() // returns a SpeciesReference
+  reactant.setSpecies('S1')
+  reactant.setConstant(false)
+
   // create a parser for infix formulae
   // this is a libsbmljs helper class
   // it doesn't exist in the libsbml C++ library
@@ -98,6 +102,9 @@ You should see the following output printed to the terminal:
     </listOfSpecies>
     <listOfReactions>
       <reaction id="J1" reversible="false">
+        <listOfReactants>
+          <speciesReference species="S1"/>
+        </listOfReactants>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
@@ -140,6 +147,10 @@ libsbml().then((libsbml) => {
   const reaction = model.createReaction()
   reaction.setId('J1')
   reaction.setReversible(false)
+
+  const reactant = reaction.createReactant() // returns a SpeciesReference
+  reactant.setSpecies('S1')
+  reactant.setConstant(false)
 
   // create a parser for infix formulae
   // this is a helper class of libsbmljs
