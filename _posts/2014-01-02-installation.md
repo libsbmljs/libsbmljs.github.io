@@ -8,12 +8,12 @@ color: white
 
 Choose one of the following packages:
 
-* No packages but smallest size
+* No SBML extensions (i.e. cannot read flux-balance models) but smallest size
 ```
 npm install --save libsbmljs_core
 ```
 
-* Everything from the previous package plus accepted SBML extensions
+* Everything from the previous package plus accepted SBML extensions (CAN read flux-balance models)
 ```
 npm install --save libsbmljs_stable
 ```
@@ -26,7 +26,7 @@ npm install --save libsbmljs_experimental
 These packages get larger but have more features as you go down the list.
 Your choice will depend on which SBML extensions you need, and how much
 bandwidth you want to conserve.
-If you don't know, try `libsbmljs_stable`.
+If you are unsure, go with `libsbmljs_stable`.
 If you would like more info, keep reading.
 
 <br/>
