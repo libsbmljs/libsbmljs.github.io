@@ -10,17 +10,17 @@ Choose one of the following packages:
 
 * No SBML extensions (i.e. cannot read flux-balance models) but smallest size
 ```
-npm install --save libsbmljs_core
+npm install --save libsbmljs_core@beta
 ```
 
 * Everything from the previous package plus accepted SBML extensions (CAN read flux-balance models)
 ```
-npm install --save libsbmljs_stable
+npm install --save libsbmljs_stable@beta
 ```
 
 * Everything from the previous package plus all SBML extensions (including proposed extensions)
 ```
-npm install --save libsbmljs_experimental
+npm install --save libsbmljs_experimental@beta
 ```
 
 These packages get larger but have more features as you go down the list.
